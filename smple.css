@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+}
+.base{
+    width: 100%;
+    height: 600px;
+    background: #ededed;
+    color: green;
+    margin-right: 0;
+}
+.facebookimage{
+    width: 55%;
+    margin-top: 10%;
+    height: 60%;
+    background:#ededed;
+    color: rgb(0, 0, 0);
+    float: left;
+    
+}
+.login{
+    margin-top: 13%;
+    margin-left: 1%;
+    height: 65%;
+    border-radius: 7px;
+    width: 40%;
+    background:#ffffff;
+    float: left;
+}
+.email{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 15%;
+    border:0.2px solid #b5aeff;
+    border-radius: 7px;
+    background:#ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(191, 194, 191);
+    direction: ltr;
+    line-height: 1.34;
+    float: left;
+}
+
+.password{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 15%;
+    border:0.2px solid #b5aeff;
+    border-radius: 7px;
+    background:#ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(191, 194, 191);
+    direction: ltr;
+    line-height: 1.34;
+    float: left;
+}
+.signin{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 15%;
+    border:0.2px solid #b5aeff;
+    border-radius: 7px;
+    background:#3668ff;
+    color: rgb(55, 28, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.signin:hover{
+    background-color: #507bfb;
+}
+.pass{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 90%;
+    height: 15%;
+    border:0.2px solid #ffffff;
+    border-radius: 7px;
+    background:#ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(165, 165, 165);
+    outline: none;
+    direction: ltr;
+    line-height: 1.34;
+    cursor: text;
+    position: relative;
+    float: left;
+}
+.pass:focus{
+    color: black;
+}
+.pass:empty::before{
+    content: 'Password';
+    color: rgb(165, 165, 165);
+}
+
+.phone{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 90%;
+    height: 15%;
+    border:0.2px solid #ffffff;
+    border-radius: 7px;
+    background:#ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    color:  rgb(165, 165, 165);
+    direction: ltr;
+    cursor: text;
+    position: relative;
+    outline:none;
+    line-height: 1.34;
+    float: left;
+}
+.phone:focus{
+    color: black;
+}
+.phone:empty::before{
+    content: 'Email or phone number';
+    color: rgb(165, 165, 165);
+}
+
+.forgot{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 10%;
+    background:#ffffff;
+    color: rgb(55, 28, 255);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    color: #3668ff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    float: left;
+}
+.create{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 15%;
+    border:none;
+    background:#ffffff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.account{
+    margin-left: 5%;
+    margin-top: 0;
+    width: 60%;
+    height: 70%;
+    border:0.2px solid #b5aeff;
+    border-radius: 7px;
+    background:#00a72f;
+    color: rgb(55, 28, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.img{
+    margin-left: 4%;
+    margin-top: 14%;
+    width: 90%;
+    height: 25%;
+    border:none;
+    background:#ededed;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.page{
+    margin-left: 30%;
+    margin-top: 0%;
+    width: 70%;
+    height: 10%;
+    border:none;
+    background:#ededed;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    float: left;
+}
+.extra{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background:#ededed;
+}
+.bottom{
+    margin: 0;
+    background:#ffffff; 
+    margin-left: 0%;
+    width: 100%;
+    height: 195px;
+    background:#ffffff;
+    color: rgb(55, 28, 255);
+    display: block;
+    justify-content: baseline;
+    align-items: top;
+    color: #3668ff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.bottom1{
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 0;
+width: 90%;
+height: 30%;
+background-color: #ffffff;
+font-stretch: condensed;
+}
+th{
+    padding: 3px 5px;
+    width:unset;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: inherit;
+    color: rgb(157, 157, 157);
+    font-size: xx-small;
+}
+a{
+    color: rgb(157, 157, 157);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.bottom2{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    width: 90%;
+    height: 50%;
+    background-color: #ffffff;
+}
+p2{
+margin-top: 0%;
+margin-left: 30px;
+margin-bottom: 30px;
+font-size: x-small;
+}
+p1{
+text-align: center;
+}
